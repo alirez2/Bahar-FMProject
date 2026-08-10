@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color used by the Android launch screen so it matches the
+         custom Flutter SplashScreen (AppConstants.primaryColor = #003A5C). -->
+    <color name="splash_background">#003A5C</color>
+</resources>
