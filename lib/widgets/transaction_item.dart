@@ -26,6 +26,7 @@ class TransactionItem extends StatelessWidget {
     final isIncome = transaction.isIncome;
 
     return Card(
+      color: AppConstants.cardColor,
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
       child: ListTile(
         onTap: onTap,

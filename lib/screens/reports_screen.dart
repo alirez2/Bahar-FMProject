@@ -65,6 +65,7 @@ class _ReportsScreenState extends State<ReportsScreen> {
   /// c kholase mah jari
   Widget _buildMonthlySummaryCard(ReportsProvider provider) {
     return Card(
+      color: AppConstants.cardColor,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -131,6 +132,7 @@ class _ReportsScreenState extends State<ReportsScreen> {
   /// nemodar dayere
   Widget _buildPieChartCard(ReportsProvider provider) {
     return Card(
+      color: AppConstants.cardColor,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -157,6 +159,7 @@ class _ReportsScreenState extends State<ReportsScreen> {
   /// nemoodar mile
   Widget _buildBarChartCard(ReportsProvider provider) {
     return Card(
+      color: AppConstants.cardColor,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(

@@ -73,8 +73,6 @@ class _HomeScreenState extends State<HomeScreen> {
             slivers: [
               // navar bala
               SliverAppBar(
-                backgroundColor: AppConstants.backgroundColor,
-                surfaceTintColor: Colors.transparent,
                 expandedHeight: 60,
                 floating: true,
                 pinned: true,
